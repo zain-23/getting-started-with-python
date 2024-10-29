@@ -1,4 +1,7 @@
-firstName = input("Firstname :")
-lastName = input("Lastname :")
+s = input("Yes Or No :")
+s = s.lower()
 
-print(firstName +" "+ lastName)
+if s in ["Yes","yes"]:
+ print("Agreed")
+elif s in ["No","no"]:
+    print("Not Agreed")
